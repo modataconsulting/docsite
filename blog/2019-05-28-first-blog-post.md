@@ -1,12 +1,9 @@
 ---
-slug: first-blog-post
-title: First Blog Post
+slug: dbt-ga4
+title: dbt GA4 Project
 authors:
-  name: Gao Wei
-  title: Docusaurus Core Team
-  url: https://github.com/wgao19
-  image_url: https://github.com/wgao19.png
-tags: [hola, docusaurus]
+  - josh
+tags: [dbt, GA4, Google Analytics, BigQuery, Data Engineering, Analytics Engineering]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet
+TO DO: Write blog post here!

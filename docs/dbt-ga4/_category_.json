@@ -1,0 +1,8 @@
+{
+  "label": "dbt GA4",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "This project uses Google Analytics 4 BigQuery Exports as its source data, and offers useful base transformations to provide report-ready dimension & fact models that can be used for reporting purposes, blending with other data, and/or feature engineering for ML models."
+  }
+}

@@ -6,18 +6,19 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'MO Data',
+  tagline: 'YABBA DABBA DOO',
+  url: 'https://github.com',
+  baseUrl: '/docsite/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'modataconsulting', // Usually your GitHub org/user name.
+  projectName: 'docsite', // Usually your repo name.
+  deploymentBranch: 'gh-pages', // Branch that GitHub pages will deploy from.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -57,74 +58,88 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: '',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'MO Data Consulting Logo',
           src: 'img/logo.svg',
+          srcDark: 'img/logo_dark.svg',
+          // href: 'https://modataconsulting.com',
+          target: '_self',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'projects',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Projects',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/modataconsulting/',
             label: 'GitHub',
             position: 'right',
           },
+          // {
+          //   type: 'search',
+          //   position: 'right',
+          // },
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
-            title: 'Docs',
+            title: 'Projects',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'dbt GA4',
+                to: '/docs/category/dbt-ga4',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Blog',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'dbt GA4',
+                to: '/blog/dbt-ga4',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Get In Touch',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/modataconsulting/',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/joshuajordandesign/',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        logo: {
+          alt: 'MO Data Consulting Logo',
+          src: 'img/logo.svg',
+          srcDark: 'img/logo_dark.svg',
+          // href: 'https://modataconsulting.com',
+          // href: '/',
+          target: '_self',
+          width: 300,
+        },
+        copyright: `Copyright © ${new Date().getFullYear()} MO Data Consulting, LLC. All Rights Reserved.`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
       },
     }),
 };
