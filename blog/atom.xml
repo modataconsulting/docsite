@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://github.com/docsite/blog</id>
+    <id>https://github.com/blog</id>
     <title>MO Data Blog</title>
     <updated>2019-05-28T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://github.com/docsite/blog"/>
+    <link rel="alternate" href="https://github.com/blog"/>
     <subtitle>MO Data Blog</subtitle>
-    <icon>https://github.com/docsite/img/favicon.png</icon>
+    <icon>https://github.com/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[dbt GA4 Project]]></title>
         <id>dbt-ga4</id>
-        <link href="https://github.com/docsite/blog/dbt-ga4"/>
+        <link href="https://github.com/blog/dbt-ga4"/>
         <updated>2019-05-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[TO DO: Write blog post here!]]></summary>
         <content type="html"><![CDATA[<p>TO DO: Write blog post here!</p>]]></content>

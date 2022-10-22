@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocsite=self.webpackChunkdocsite||[]).push([[42],{6060:e=>{e.exports=JSON.parse('{"label":"BigQuery","permalink":"/blog/tags/big-query","allTagsPath":"/blog/tags","count":1}')}}]);
