@@ -24,5 +24,6 @@ Find more info about Google Analytics 4 BigQuery Exports [here](https://develope
 ## Quick Links
 
 - [Installation & Configuration](./config)
-- [Modles](./models)
+- [Models](./models)
 - [Macros](./macros)
+- [Resources](./resources)

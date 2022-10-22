@@ -4,32 +4,30 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Data Integration',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Solve the Extract & Load stage of ELT by bringing data from disparate sources together.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Dashboarding',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Connect any and all marketing data sources to your dashboard.
+        Let your marketers focus on the analysis.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Data Warehousing',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Centralize all of your marketing data into a Single Source of Truth Data Warehouse.
       </>
     ),
   },
