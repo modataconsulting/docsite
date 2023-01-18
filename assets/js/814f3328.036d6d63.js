@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocsite=self.webpackChunkdocsite||[]).push([[535],{5641:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"dbt GA4 Project","permalink":"/docsite/blog/dbt-ga4"}]}')}}]);

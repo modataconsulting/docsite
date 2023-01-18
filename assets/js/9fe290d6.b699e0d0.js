@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocsite=self.webpackChunkdocsite||[]).push([[613],{7963:e=>{e.exports=JSON.parse('{"permalink":"/docsite/blog/tags/data-engineering","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocsite=self.webpackChunkdocsite||[]).push([[2097],{1029:t=>{t.exports=JSON.parse('{"label":"Attribution","permalink":"/docsite/blog/tags/attribution","allTagsPath":"/docsite/blog/tags","count":1}')}}]);

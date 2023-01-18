@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkdocsite=self.webpackChunkdocsite||[]).push([[115],{8744:s=>{s.exports=JSON.parse('{"label":"GA4","permalink":"/docsite/blog/tags/ga-4","allTagsPath":"/docsite/blog/tags","count":1}')}}]);
